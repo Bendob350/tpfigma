@@ -4,6 +4,8 @@ body {
 }
 body{
     overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .part1{
     background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
@@ -137,4 +139,132 @@ border: none;
     align-items: center;
     justify-content: space-around;
     margin-top: 128px;
+}
+.part3{
+    width: auto;
+    height: 676px;
+    top: 2608px;
+    left: 1px;
+    background-color: #EFFBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toptxt3t{
+    width: 616px;
+height: 52px;
+left: -0.5px;
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 52px;
+letter-spacing: 0.3px;
+text-align: center;
+color: #034D82;
+}
+.toptxt3b{
+    width: 579px;
+height: 64px;
+top: 76px;
+left: 19px;
+font-family: "DM Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 0.3px;
+text-align: center;
+color: #8EA9C1;
+}
+.part4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1200px;
+    width: auto;
+    align-items: center;
+}
+.top4{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 127px;
+}
+.righttop{
+    width: 463px;
+height: 156px;
+top: 3487px;
+left: 140px;
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 52px;
+letter-spacing: 0.3px;
+color: #034D82;
+}
+.rightbot{
+    width: 421px;
+height: 32px;
+top: 3667px;
+left: 141px;
+font-family: "DM Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 0.3px;
+color: #90A3B4;
+}
+.img4{
+    width: 1159px;
+height: 360px;
+top: 3958px;
+left: 141px;
+
+}
+.left4{
+    display: flex;
+    align-items: center;
+}
+.img42{
+    width: 47px;
+height: 35px;
+top: 3440px;
+left: 766px;
+margin-top: -270px;
+margin-right: 9px;
+}
+.img41{
+    width: 24px;
+height: 24px;
+top: 3658px;
+left: 754px;
+margin-right: 12px;
+}
+.img43{
+    width: 442px;
+    height: 204px;
+    top: 3492px;
+    left: 822px;
+}
+.img44{
+    width: 10px;
+    height: 10px;
+    top: 3745px;
+    left: 822px;
+}
+.img45{
+    width: 130px;
+    height: 130px;
+    top: 3652px;
+    left: 1264px;
+    margin-left: -45px;
+}
+.place3{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
 }

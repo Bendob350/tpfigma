@@ -1,7 +1,13 @@
+html,
+body {
+  overflow-x: hidden;
+}
+html{
+    overflow-y: hidden;
+}
 .part1{
     background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
-    width: 1440;
-height: 860;
+    height: 860px;
     display: flex;
     flex-direction: column;
     gap: 170px;
@@ -43,27 +49,85 @@ height: 860;
 .toptxt1{
     color: white;
     font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-font-size: 54px;
-line-height: 76px;
-letter-spacing: 0px;
-width: 623;
-height: 241;
+    width: 623px;
+height: 241px;
 top: 247px;
 left: 140px;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+letter-spacing: 0px;
 }
 .toptxt{
     display: flex;
     flex-direction: column;
 }
 .toptxt1img{
-    width: auto;
+    width: 176.27446032124584px;
+height: 50.92055525409123px;
+top: 520.65px;
+left: 157.22px;
+transform: rotate(-14,35deg);
+margin-left: 4.6px;
+    margin-top: -27px;
 }
 .bot{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: start;
 }
 .botr1{
-    padding-left: 170px;
-    padding-bottom: -1000px;
+    margin-bottom: -400px;
+}
+.botr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+.botl{
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.midtxt{
+    width: 459px;
+height: 78px;
+top: 520px;
+left: 140px;
+font-family: "DM Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+color: white;
+}
+.bottxt{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.bottxts
+{
+    font-family: "DM Sans", sans-serif;
+    width: 123px;
+height: 21px;
+top: 648px;
+left: 379px;
+color: white;
+}
+.bottxtl{
+    width: 197px;
+height: 57px;
+top: 630px;
+left: 140px;
+border-radius: 4px;
+color: #00A8DB;
+border: none;
+}
+.bottxtr{
+    display: flex;
+    align-items: center;
+    gap: 0px;
 }

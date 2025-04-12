@@ -255,41 +255,33 @@ body {
 }
 @media only screen and (max-width: 768px) {
     .part1 {
-      height: auto;
-      gap: 50px;
-      padding: 20px;
-    }
-    .top,
-    .top1,
-    .top2list,
-    .top2,
-    .top2l,
-    .bot {
-      flex-direction: column;
-      align-items: center;
+      height: 600px;
+      gap: 80px;
+      padding: 10px;
     }
     .toptxt1 {
-      width: 100%;
+      width: 90%;
       font-size: 40px;
-      height: auto;
+      line-height: 50px;
       text-align: center;
+      margin: 0 auto;
     }
     .toptxt1img {
-      width: 120px;
-      height: auto;
-      margin-left: 0;
+      width: 130px;
       margin-top: -10px;
+    }
+    .top2btn {
+      width: 80px;
+      height: 30px;
+      font-size: 12px;
     }
     .midtxt,
     .bottxts,
     .righttop,
     .rightbot {
       width: 90%;
+      font-size: 14px;
       text-align: center;
-    }
-    .top4 {
-      flex-direction: column;
-      gap: 20px;
       margin: 0 auto;
     }
     .img4,
@@ -297,4 +289,15 @@ body {
       width: 100%;
       height: auto;
     }
+    .top, .bot {
+      gap: 20px;
+    }
+    .botl {
+      margin-left: 0;
+    }
+    .top4 {
+      margin: 0 10px;
+      gap: 20px;
+    }
   }
+  

@@ -253,51 +253,135 @@ body {
   flex-direction: column;
   gap: 49px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 390px) {
     .part1 {
-      height: 600px;
-      gap: 80px;
-      padding: 10px;
+      height: 550px;
+      gap: 40px;
+      padding: 0 10px;
+    }
+    .top {
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .top1img {
+      width: 60px;
+    }
+    .top2 .top2listtxt {
+      font-size: 12px;
+    }
+    .top2 img {
+      width: 10px;
+    }
+    .top2btn {
+      width: 60px;
+      height: 28px;
+      font-size: 10px;
+    }
+    .bot {
+      gap: 20px;
     }
     .toptxt1 {
       width: 90%;
-      font-size: 40px;
-      line-height: 50px;
+      font-size: 28px;
+      line-height: 32px;
       text-align: center;
       margin: 0 auto;
     }
     .toptxt1img {
-      width: 130px;
+      width: 80px;
       margin-top: -10px;
     }
-    .top2btn {
-      width: 80px;
-      height: 30px;
+    .midtxt p {
+      font-size: 12px;
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
+    .bottxt {
+      gap: 15px;
+    }
+    .bottxtl {
+      width: 120px;
+      height: 40px;
       font-size: 12px;
     }
-    .midtxt,
-    .bottxts,
-    .righttop,
-    .rightbot {
-      width: 90%;
-      font-size: 14px;
-      text-align: center;
-      margin: 0 auto;
+    .bottxts {
+      font-size: 10px;
     }
-    .img4,
-    .img43 {
+    .part2 img {
       width: 100%;
       height: auto;
     }
-    .top, .bot {
-      gap: 20px;
+    .part3 {
+      height: auto;
+      padding: 20px;
     }
-    .botl {
-      margin-left: 0;
+    .toptxt3t {
+      width: 90%;
+      margin: auto;
+      font-size: 24px;
+    }
+    .toptxt3b {
+      width: 90%;
+      margin: auto;
+      font-size: 12px;
+      text-align: center;
+    }
+    .bot3 img {
+      width: 90%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+    .part4 {
+      height: auto;
+      padding: 20px 10px;
     }
     .top4 {
-      margin: 0 10px;
+      flex-direction: column;
       gap: 20px;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .righttop {
+      width: 90%;
+      text-align: center;
+      font-size: 18px;
+    }
+    .rightbot {
+      width: 90%;
+      text-align: center;
+      font-size: 12px;
+    }
+    .left4 {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    .img41 {
+      width: 20px;
+      height: 20px;
+    }
+    .img42 {
+      width: 30px;
+      height: auto;
+    }
+    .place3 .img43 {
+      width: 90%;
+      height: auto;
+    }
+    .img44 {
+      width: 8px;
+      height: 8px;
+    }
+    .img45 {
+      width: 80px;
+      height: auto;
+      margin-left: 0;
+    }
+    .part5 {
+      width: 100%;
+      height: auto;
     }
   }
   
